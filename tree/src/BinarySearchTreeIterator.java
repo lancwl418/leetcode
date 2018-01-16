@@ -35,6 +35,7 @@ public class BinarySearchTreeIterator {
         current = stack.pop();
         int val = current.val;
         current = current.right;
+        return val;
     }
 }
 
